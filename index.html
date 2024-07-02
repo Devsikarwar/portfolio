@@ -1,0 +1,622 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script defer src="https://kit.fontawesome.com/583f110147.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="./style/style.css">
+
+    <script defer src="./script/index.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+    <link rel="icon" type="image/x-icon" href="./assets/a_logo2.png">
+    <title>Pushpendra Sikarwar | Java Backend Developer</title>
+</head>
+
+<body>
+    <!-- big__nav--hidden -->
+    <div class="nav-big big__nav--hidden">
+        <nav class="nav">
+            <ul class="nav__links">
+                <li class="nav__link liabout"><a href="./index.html">Home</a></li>
+                <li class="nav__link liabout"><a>About</a></li>
+                <li class="nav__link liabout">
+                    <!-- on click it's should be download and redirect to drive -->
+                    <a href="./assets/Pushpendra Java Developer CV.pdf" onclick="downloadResume()"
+                        download="pushpendra-Resume.pdf">Resume</a>
+
+                </li>
+                <li class="nav__link liskill"><a>My Skills</a></li>
+                <li class="nav__link liwork"><a>Projects</a></li>
+                <li class="nav__link licontact"><a>Contact</a></li>
+                <img src="./assets/moon.png" alt="" id="sidebar_icon">
+            </ul>
+        </nav>
+        <div class="social-icon">
+            <a href="https://github.com/Devsikarwar" target="_blank">
+                <i class="fa-brands fa-github" ></i>
+            </a>
+            <a href="https://www.linkedin.com/in/pushpendra-sikarwar-11472b260/" target="_blank">
+                <i class="fa-brands fa-linkedin-in" ></i>
+            </a>
+            <a href="https://www.hackerrank.com/profile/Pushpendrasikar2" target="_blank">
+                <i class="fa-brands fa-hackerrank"></i>
+            </a>
+        </div>
+    </div>
+
+
+
+    <div class="nav-big--2 big__nav--hidden--2">
+        <div data-tilt>
+            <img id="amanImg" src="./assets/Aman.jpg" alt="aman">
+        </div>
+
+        <nav class="nav--2">
+            <ul class="nav__links--2">
+                <li class="nav__link--2 liabout"><a href="./index.html">Home</a></li>
+                <li class="nav__link--2 liabout"><a>About</a></li>
+                <li class="nav__link--2 liabout">
+                    <!-- on click it's should be download and redirect to drive -->
+                    <a href="./assets/Aman_Verma_Resume (2).pdf" onclick="downloadResume()"
+                        download="fw-19-0357-Aman-verma-Resume.pdf">Resume</a>
+                </li>
+                <li class="nav__link--2 liskill"><a>My Skills</a></li>
+                <li class="nav__link--2 liwork"><a>Projects</a></li>
+                <li class="nav__link--2 licontact"><a>Contact</a></li>
+                <img src="./assets/moon.png" alt="" id="sidebar_icon">
+            </ul>
+        </nav>
+
+        <!-- <div class="social-icon">
+            <a href="https://github.com/amanvermai30" target="_blank">
+                <i class="fa-brands fa-github"></i></a>
+            <a href="https://www.linkedin.com/in/aman-verma-i30/" target="_blank" <i
+                class="fa-brands fa-linkedin-in"></i></a>
+            <a href="https://www.hackerrank.com/creative6392?hr_r=1" target="_blank">
+                <i class="fa-brands fa-hackerrank"></i></a>
+        </div> -->
+    </div>
+
+
+    <!-- for styles cursor  -->
+    <div class="cursor"></div>
+    <div class="cursor2"></div>
+    <!-- --------------------------->
+
+
+
+
+    <menu>
+        <div class="main-navbar">
+            <div class="mobile-nav mobile__nav--hidden sticky ">
+                <img src="./assets/a_logo2.png" class="icon__img" alt="aman-signature">
+                <i class="fa-solid fa-bars"></i>
+            </div>
+        </div>
+    </menu>
+
+
+    <div class="main__body--container" style="height: auto !important;">
+        <section class="hero--section">
+            <!-- incomplete-->
+            <div class="hero--main__hero">
+                <div class="hero__intro content">
+                    <h1>Hello <span class="span-h1"> Visitors</span> </h1>
+                    <!-- <p>How you doing!</p> -->
+                    <!-- <h1>..I'm <span><img src="./assets/Aman-white.png" class="signature__img" alt=""></span>,</h1> -->
+                    <h1 data-tilt>I'm Pushpendra Sikarwar</h1>
+                    <h2 class="text"><span class="multitext"></span></h2>
+                </div>
+
+                <div id="hero--image__main" data-tilt>
+                    <img src=".//assets/portfolio-image.jpg" alt="Pushpendra Sikarwar">
+                </div>
+            </div>
+
+
+
+            <div class="hero__btn">
+                <button class="hero__section--btn">
+                    <!-- on click it's should be download and redirect to drive -->
+                    <a href="./assets/Aman_Verma_Resume (2).pdf" onclick="downloadResume()"
+                        download="fw-19-0357-Aman-verma-Resume.pdf">Resume</a>
+                        
+                    <i class="fa-solid fa-file-arrow-down"></i>
+                </button>
+                <button class="hero__section--btn">
+                    <a href="#contact--me">Contact Me!</a></button>
+            </div>
+        </section>
+
+
+
+        <section class="section__portfolio section" id="portfolio">
+            <h1 class="slogan">Bring your business live with Me</h1>
+            <div class="slogan__line"></div>
+            <h2 class="section__portfolio--heading">My Awesome Portfolio</h2>
+            <p>A small gallery of recent projects chosen by me. I've done them all
+                together
+                with amazing people. It's only a drop in
+                the
+                ocean compared to the entire list.
+            </p>
+
+            <!-- <p>The following projects are created my using HTML, CSS, JavaScript</p> -->
+
+            <div class="app__portfolio">
+
+                <!-- this is my new projects -->
+                <div class="app__portfolio--list">
+                    <img src="./assets/wishfy-home.png" class="app__portfolio--img" alt="wishfy">
+                    <h3>wishfy - Gardening Service</h3>
+                    <p class="projects-ptag">
+                        We deliver meticulous garden design services.
+                        Our team crafts thoughtful landscapes, blending creativity and expertise to transform your outdoor space into a lush haven.
+                    </p>
+                    <!-- tech stack and tools div -->
+                    <div>
+                        <p>Tech Stack : Java | Spring Boot | Hibernate</p>
+                        <p>Microservices | Payment gatway</p>
+                        <p>Redis | REST API | MySQL | MongoDB</p>
+                        <!-- tools -->
+                        <p> Tools : GIT | JDK | STS | Maven</p>
+                        <p>CI/CD | Swagger | Post Man</p>
+                    </div>
+
+                    <div class="app__portfolio--view">
+                        <!-- make it relative -->
+                        <a href="https://wishfy.io" target="_blank">
+                            <i class="fa-regular fa-eye"></i>
+                            <span>View</span>
+                        </a>
+                    </div>
+                </div>
+                
+                <div class="app__portfolio--list">
+                    <img src="./assets/shopeasy.png" class="app__portfolio--img" alt="firstpost">
+                    <h3>Shopeasy Online Shopping</h3>
+                    <p class="projects-ptag">About
+                        shopeasy is a spring boot application developed to work as a online shopping application. This
+                        application provides REST API for an online shopping application.</p>
+                    <!-- tech stack and tools div -->
+                    <div>
+                        <p>Tech Stack : Java | Spring Boot | Hibernate</p>
+                        <!-- tools -->
+                        <p> Tools : JDK | STS | AWS</p>
+                    </div>
+
+                    <div class="app__portfolio--view">
+                        <!-- make it relative -->
+                        <a href="https://stupendous-torte-de1175.netlify.app/" target="_blank">
+                            <i class="fa-regular fa-eye"></i>
+                            <span>View</span>
+                        </a>
+
+                        <a href="https://github.com/amanvermai30/Shopeasy" target="_blank"><i
+                                class="fa-brands fa-github"></i>
+                            <span>Github</span>
+                        </a>
+                    </div>
+                </div>
+
+                <!-- this is my new projects -->
+                <div class="app__portfolio--list">
+                    <img src="./assets/callbuddy.png" class="app__portfolio--img" alt="firstpost">
+                    <h3>Call Management System</h3>
+                    <p class="projects-ptag">
+                        Within a call centre the main process is handling the telephone call.
+                        operator will solve problem by providing soluation to customer.
+                    </p>
+                    <div>
+                        <p>Tech Stack : Java | Spring Boot | Hibernate</p>
+                        <!-- tools -->
+                        <p> Tools : JDK | STS | SQL Client</p>
+                    </div>
+
+                    <div class="app__portfolio--view">
+                        <!-- make it relative -->
+                        <a href="https://drive.google.com/file/d/1xVOkkDhORQp9GKkDjq5bbjTkOuNa1y5Z/view?usp=sharing" target="_blank">
+                            <i class="fa-regular fa-eye"></i>
+                            <span>View</span>
+                        </a>
+
+                        <a href="https://github.com/sahillagad/rude-coil-884" target="_blank"><i
+                                class="fa-brands fa-github"></i>
+                            <span>Github</span>
+                        </a>
+                    </div>
+                </div>
+
+
+                <div class="app__portfolio--list">
+                    <img src="./assets/Auction-system-Project-2.png" class="app__portfolio--img" alt="firstpost">
+                    <h3>Automated Auction System</h3>
+                    <p class="projects-ptag">About
+                        Automated Auction System is an Application Software that is used
+                        for the buying and selling of products.</p>
+                    <div>
+                        <p>Tech Stack : Java | JDBC | MySQL</p>
+                        <!-- tools -->
+                        <p> Tools : JDK | STS | SQL Client</p>
+                    </div>
+
+                    <div class="app__portfolio--view">
+                        <!-- make it relative -->
+                        <a href="https://drive.google.com/file/d/1Q074Bu-b4ih0p_PdcegrTYoNWmY2SQ3Q/view?usp=sharing" target="_blank">
+                            <i class="fa-regular fa-eye"></i>
+                            <span>View</span>
+                        </a>
+
+                        <a href="https://github.com/amanvermai30/Automated-Auction-System" target="_blank"><i
+                                class="fa-brands fa-github"></i>
+                            <span>Github</span>
+                        </a>
+                    </div>
+                </div>
+
+
+                <div class="app__portfolio--list">
+                    <img src="./assets/Monster-India-Project-1.png" class="app__portfolio--img" alt="firstpost">
+                    <h3>Monster India Clone</h3>
+                    <p class="projects-ptag">Monster is a global online employment solution for people seeking
+                        jobs and the employers who need great people.</p>
+                    <div>
+                        <p>Tech Stack : JavaScript | CSS | HTML</p>
+                        <!-- tools -->
+                        <p> Tools : VS Code | Github | Netlify</p>
+                    </div>
+
+                    <div class="app__portfolio--view">
+                        <!-- make it relative -->
+                        <a href="https://shiny-smakager-81ae37.netlify.app/" target="_blank">
+                            <i class="fa-regular fa-eye"></i>
+                            <span>View</span>
+                        </a>
+
+                        <a href="https://github.com/Abhijeet-abhi/enormous-weight-975" target="_blank"><i
+                                class="fa-brands fa-github"></i>
+                            <span>Github</span>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="app__portfolio--list">
+                    <img src="./assets/Employee-management-Project-3.png" class="app__portfolio--img" alt="firstpost">
+                    <h3>Employee Management System</h3>
+                    <p class="projects-ptag">This is my first Java Project , it's very simple employee
+                        management system where admin can add employee details of his
+                        organization.</p>
+                    <div>
+                        <p>Tech Stack : Java | JDBC | MySQL</p>
+                        <!-- tools -->
+                        <p> Tools : JDK | STS | SQL Client</p>
+                    </div>
+
+                    <div class="app__portfolio--view">
+                        <!-- make it relative -->
+                        <a href="https://drive.google.com/file/d/11d6H6_j4HS5L8VrR5aeCDzKPvprG8429/view?usp=sharing" target="_blank">
+                            <i class="fa-regular fa-eye"></i>
+                            <span>View</span>
+                        </a>
+
+                        <a href="https://github.com/amanvermai30/-Employee-Management-System-Project-1"
+                            target="_blank"><i class="fa-brands fa-github"></i>
+                            <span>Github</span>
+                        </a>
+                    </div>
+                </div>
+
+
+                <div class="app__portfolio--list">
+                    <img src="./assets/Screenshot 2022-10-15 155221.png" class="app__portfolio--img" alt="firstpost">
+                    <h3>FirstPost Website Clone</h3>
+                    <p class="projects-ptag">Firstpost.com will serve as a trusted guide to the crush of news
+                        and ideas around you.</p>
+                    <div>
+                        <p>Tech Stack : JavaScript | CSS | HTML</p>
+                        <!-- tools -->
+                        <p> Tools : VS Code | Github | Netlify</p>
+                    </div>
+
+                    <div class="app__portfolio--view">
+                        <!-- make it relative -->
+                        <a href="https://bejewelled-moxie-f95819.netlify.app/" target="_blank">
+                            <i class="fa-regular fa-eye"></i>
+                            <span>View</span>
+                        </a>
+
+                        <a href="https://github.com/IInnffiinniittyy/Project_Firstpost" target="_blank"><i
+                                class="fa-brands fa-github"></i>
+                            <span>Github</span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+
+
+
+        <section class="section__about section" id="section__about">
+            <div class="about--myself">
+                <h1>It's Me</h1>
+                <div class="line"></div><!-- a solid line -->
+                <p>Backend Developer with hands-on experience in designing,
+                    developing, and maintaining projects. Adept at learning, unlearning,
+                    and relearning. Demonstrate the capability of managing clean, elegant,
+                    and efficient code. Highly skilled in collaboration, decision-making,
+                    and Data Structures & Algorithms. I'm still enthusiastically grabbing
+                    on to multiple programming languages, frameworks, and principles that
+                    I can add to my skillset.</p>
+            </div>
+
+
+            <div class="about--skillex" id="skill">
+                <h2>My Skills</h2>
+                <div class="about--container">
+
+                    <!-- teck stack -->
+                    <h1 class="teck-stack">Tech Stack</h1>
+                    <div class="about--skillicon">
+                        <div class="icon__container" data-tilt>
+                            <img src="./assets/skil__Icon/HTML5_logo_and_wordmark.svg">
+                            <h3>HTML</h3>
+                        </div>
+
+                        <div class="icon__container" data-tilt>
+                            <img src="./assets/skil__Icon/CSS_logo_and_wordmark.svg">
+                            <h3>CSS</h3>
+                        </div>
+
+                        <div class="icon__container" data-tilt>
+                            <img src="./assets/skil__Icon/icons8-javascript.svg">
+                            <h3>JavaScript</h3>
+                        </div>
+
+                        <div class="icon__container" data-tilt>
+                            <img src="./assets/skil__Icon/java-svgrepo-com.svg">
+                            <h3>Java</h3>
+                        </div>
+
+                        <div class="icon__container" data-tilt>
+                            <img src="./assets/skil__Icon/mysqlworkbench_102952.svg">
+                            <h3>My SQL</h3>
+                        </div>
+
+                        <div class="icon__container" data-tilt>
+                            <img src="./assets/skil__Icon/spring-icon.svg">
+                            <h3>Spring</h3>
+                        </div>
+
+                        <div class="icon__container" data-tilt>
+                            <img src="./assets/skil__Icon/spring-boot-logo.png">
+                            <h3>Spring Boot</h3>
+                        </div>
+                        <div class="icon__container" data-tilt>
+                            <img src="./assets/skil__Icon/hibernate_logo_icon_171004.svg">
+                            <h3>Hibernet</h3>
+                        </div>
+                    </div>
+
+                    <!-- tools -->
+                    <h1 class="teck-stack">Tools</h1>
+                    <div class="about--skillicon">
+                        <div class="icon__container" data-tilt>
+                            <img src="./assets/skil__Icon/Amazon Web Services.svg">
+                            <h3>AWS</h3>
+                        </div>
+                        <div class="icon__container" data-tilt>
+                            <img src="./assets/skil__Icon/Git logo.svg">
+                            <h3>Git</h3>
+                        </div>
+                        <div class="icon__container" data-tilt>
+                            <img src="./assets/skil__Icon/github.svg">
+                            <h3>Github</h3>
+                        </div>
+                        <div class="icon__container" data-tilt>
+                            <img src="./assets/skil__Icon/Visual Studio Code.svg">
+                            <h3>VsCode</h3>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+
+            <!-- my proficiencies same as statistics ====================================== -->
+            <div class="about--statistics">
+                <h1>MY PROFICIENCIES</h1>
+                <div class="line"></div>
+                <div class="statistics--lists">
+                    <div class="statistics--item">
+                        <img src="./assets/statistics__icon/Studying Concept Illustration.svg" alt="">
+                        <h2>1200+ Hours</h2>
+                        <h4 style="color: rgb(237, 237, 237);">Full Stack Coding</h4>
+                    </div>
+
+                    <div class="statistics--item">
+                        <img src="./assets/statistics__icon/envio-18.jpg" alt="">
+                        <h2>20+ Projects</h2>
+                        <h4 style="color: rgb(237, 237, 237);">Completed</h4>
+                    </div>
+
+                    <div class="statistics--item">
+                        <img src="./assets/statistics__icon/21.svg" alt="">
+                        <h2>100+ Hours Of Soft</h2>
+                        <h4 style="color: rgb(237, 237, 237);">Skills Sessions</h4>
+                    </div>
+
+                    <div class="statistics--item">
+                        <img src="./assets/statistics__icon/21.svg" alt="">
+                        <h2>DATA STRUCTURES AND ALGORITHMS</h2>
+                        <h4 style="color: rgb(237, 237, 237);">Solved 700+ DSA problems in
+                            masai OJ platform.</h4>
+                    </div>
+                </div>
+            </div>
+
+
+
+
+            <!-- <div class="about--stubies">
+                <h1>Education</h1>
+                    <div class="about__studies--lists">
+                        <div class="qualification__data">
+                            <div>
+                              <h3 class="qualification__title">
+                                Full Stack Web Development
+                              </h3>
+                              <span class="qualification__subtitle">Masai School, Bengaluru</span>
+                              <div class="qualification__calendar">
+                                <i class="uil uil-calendar-alt"></i>
+                                Apr 2022 - Dec 2022
+                              </div>
+                            </div>
+            
+                            <div>
+                              <span class="qualification__rounder"></span>
+                              <span class="qualification__line"></span>
+                            </div>
+                        </div>
+                    </div>
+            </div> -->
+
+
+            <div class="about--statistics">
+                <h1>My Statistics</h1>
+                <div class="line"></div>
+
+                <div class="github-container">
+                    <p align="left">
+
+                    <div class="github-first-container">
+                        <a href="https://github.com/Devsikarwar" style="text-decoration: none; ">
+                            <img class="github-first-img"
+                                src="https://github-readme-streak-stats.herokuapp.com?user=Devsikarwar&theme=algolia" />
+                            <img class="github-first-img"
+                                src="https://github-readme-stats-eight-theta.vercel.app/api/top-langs/?username=Devsikarwar&layout=compact&langs_count=8&theme=algolia" />
+                        </a>
+                    </div>
+
+
+                    </p>
+
+                    <div class="github-calendar">
+                        <script src="https://unpkg.com/github-calendar@latest/dist/github-calendar.min.js">
+                        </script>
+                        <!--  CSS link-->
+                        <link rel="stylesheet"
+                            href="https://unpkg.com/github-calendar@latest/dist/github-calendar-responsive.css" />
+
+                        <div class="calendar"> </div>
+                        <!-- calendar. -->
+                        <script>  GitHubCalendar(".calendar", "Devsikarwar"); </script>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+
+        </section>
+
+        <section class="section__contact section" id="contact--me">
+            <h1>Contact Me</h1>
+            <div class="line"></div>
+            <p>I’m interested in freelance opportunities – especially ambitious or large
+                projects. However, if you have other request or question, don’t hesitate
+                to
+                use the form.</p>
+            <div class="contact__Info">
+                <!-- <div class="contact__form">
+                    <form action="submit" class="main__contact">
+                        <input type="text" placeholder="Name">
+                        <input type="email" placeholder="Email">
+                        <input type="text" placeholder="Subject">
+                        <textarea name="msg" id="massage" cols="40" placeholder="Massage" spellcheck="false"></textarea>
+                    </form>
+                    <button class="btn submit">Send Message</button>
+                </div> -->
+
+                <div class="contact__details">
+                    <div class="contact__details--items">
+                        <div class="contact__details--item">
+                            <i class="fa-solid fa-envelope"></i>
+                            <h2>pushpendrasinghskrwr@gmail.com</h2>
+                        </div>
+                        <div class="contact__details--item">
+                            <i class="fa-solid fa-phone"></i>
+                            <h2>7000124494</h2>
+                        </div>
+                        <div class="contact__details--item">
+                            <i class="fa-solid fa-location-dot"></i>
+                            <h2>Noida, Utter Pradesh</h2>
+                        </div>
+                    </div>
+
+                    <div>
+                        <div class="social-icon-footer">
+                            <a href="https://github.com/Devsikarwar" target="_blank"><i
+                                    class="fa-brands fa-github" style="font-size: 45px;"></i></a>
+                            <a href="https://www.linkedin.com/in/pushpendra-sikarwar-11472b260/" target="_blank">
+                                <i class="fa-brands fa-linkedin-in" style="font-size: 45px;"></i>
+                            </a>
+                            <a href="https://www.hackerrank.com/profile/Pushpendrasikar2" target="_blank">
+                                <i class="fa-brands fa-hackerrank" style="font-size: 45px;"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+        <footer>
+            <!-- demo navigation -->
+
+        </footer>
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/vanilla-tilt/1.8.0/vanilla-tilt.min.js"></script>
+</body>
+
+</html>
+
+<script>
+
+    // multi text effect //
+    const typingEffect = new Typed(".multitext", {
+        strings: ["Coder", "Developer", "Backend Developer"],
+        loop: true,
+        typeSpeed: 100,
+        backSpeed: 80,
+        startDelay: 1000,
+        backDelay: 1500,
+
+    })
+
+</script>
+
+<script>
+
+    GitHubCalendar(".calendar", "amanvermai30",
+        { responsive: true, global_stats: false, tooltips: true, });
+    $(".counting").each(function () {
+        var $this = $(this), countTo = $this.attr("data-count");
+        $({ countNum: $this.text() }).animate({ countNum: countTo, },
+            {
+                duration: 3000, easing: "linear", step: function () {
+                    $this.text(Math.floor(this.countNum));
+                }, complete: function () { $this.text(this.countNum); },
+            });
+    });
+
+</script>
